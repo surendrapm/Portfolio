@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/about.css'
 import {about} from '../config'
 
 
@@ -19,7 +20,7 @@ const About = () => {
                 {
                      Object.keys(about.majors).map((major)=>(
                           <li className='service-item'>
-                              <div className=''>
+                              <div className='service-content-box'>
                                 <h4 className='h4 service-item-title'>{major}</h4>
                                 <p className='service-item-text'>{about.majors[major]}</p>
                               </div>

@@ -1,10 +1,12 @@
-export const navbar = ['about','skills','work'];
 import {AboutType} from '../src/types'
+import img from './img/about.png'
+export const navbar = ['about','skills','work'];
+
 export const profile = {
     name:'Surendra P',
-    pic:'erf',
+    pic:"https://pbs.twimg.com/profile_images/1745420012490473472/kQul3Sk0_400x400.jpg",
     title:'FullStack Engineer',
-    email:'surendramanagoli@gmail.com',
+    email:'suredon456@gmail.com',
     location:'Solapur ,India',
     social:{
         linkedin:'https://www.linkedin.com/in/surendra-m-6b03971b1/',

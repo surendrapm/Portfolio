@@ -10,7 +10,8 @@ function App() {
 
 
   return (
-  <main>
+    <>
+    <main>
        <Profile/>
        <div className='main-content'>
              <Nav/>
@@ -19,6 +20,7 @@ function App() {
              <Work/>
        </div>
   </main>
+    </>
   )
 }
 
